@@ -1,0 +1,116 @@
+body {
+margin: 0;
+padding: 0;
+background: radial-gradient(circle at left, rgb(34, 34, 36), rgb(0, 0, 0)); 
+font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+padding: 3%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+}
+
+li {
+align-items: center;
+}
+
+a {
+text-decoration: none;
+color: white
+}
+
+nav a:hover {
+color: rgb(118, 57, 216);
+}
+
+header {
+color: rgb(118, 57, 216);
+}
+
+h1 {
+padding-left: 2%;
+font-weight: 600;
+}
+
+h2{
+color: white;
+padding-left: 2%;
+}
+
+h3 {
+color: rgb(118, 57, 216);
+padding-left: 2%;
+}
+
+p {
+color: white;
+text-align: justify;
+width: 800px;
+padding-left: 2%;
+font-weight: 500;
+font-size: large;
+}
+
+img {
+height: 30px;
+width: 30px
+}
+
+footer {
+display: flex;
+justify-content: center;
+}
+
+abbr{
+text-decoration: none;
+}
+
+.logo {
+text-align: center;
+}
+
+.imagem_principal {
+border-radius: 50%;
+width: 7%;
+height: 8%;
+border: 4.5px solid rgb(118, 57, 216);
+margin-left: 2%;
+}
+
+.contato:hover {
+color: rgb(118, 57, 216);
+}
+
+.final_da_pag {
+padding: 10px;
+ }
+
+
+
+ @media screen and (max-width: 900px){
+
+    .imagem_principal {
+        width: 15%;
+        margin-left: 5.6%;
+}
+   
+p {
+
+  width: 92%;  
+}
+
+i, abbr{
+display: none;
+}
+
+ul {
+margin-right: 2%;
+
+}
+
+ }
+
